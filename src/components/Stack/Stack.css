@@ -39,25 +39,28 @@
 
 .stack__list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  flex-wrap: nowrap;
+  gap: 6px;
   margin: 0;
   padding: 0;
-  width: 100%;
   list-style: none;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.stack__list::-webkit-scrollbar {
+  display: none;
 }
 
 .stack__pill {
-  padding: 7px 14px;
-
+  padding: 5px 12px;
   border-radius: 999px;
-
   background-color: #1d2232;
-
-  color: #f4efe4;
-
+  color: #d7d0bd;
   font-family: "DM Sans", sans-serif;
   font-size: 12px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .stack__pill_type_deployment {

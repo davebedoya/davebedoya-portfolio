@@ -1,0 +1,76 @@
+.contact {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.contact__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.contact__card {
+  padding: 56px 32px;
+  background-color: #161920;
+  border: 1px solid #252b38;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact__headline {
+  margin: 0;
+  color: #f4efe4;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.contact__subtext {
+  margin: 0;
+  color: #9d9a96;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+}
+
+.contact__actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.contact__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  padding: 0 28px;
+  border-radius: 8px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.contact__button_type_primary {
+  background-color: #b9a06a;
+  color: #f4efe4;
+}
+
+.contact__button_type_primary:hover {
+  background-color: #c4ae74;
+}
+
+.contact__button_type_ghost {
+  border: 1px solid #252b38;
+  color: #d7d0bd;
+}
+
+.contact__button_type_ghost:hover {
+  border-color: #b9a06a;
+  color: #b9a06a;
+}

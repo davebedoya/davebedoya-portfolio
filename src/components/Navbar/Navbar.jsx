@@ -24,7 +24,7 @@ function Navbar() {
             Contact
           </a>
           <a href="#contact" className="navbar__link navbar__link_cta">
-            Hire Me
+            Hire Me →
           </a>
         </div>
       </div>

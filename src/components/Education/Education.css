@@ -1,0 +1,63 @@
+.education {
+  margin-top: 32px;
+}
+
+.education__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.education__section-label {
+  margin: 0 0 16px;
+  color: #9d9a96;
+  font-family: "DM Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.education__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.education__card {
+  padding: 24px;
+  background-color: #161920;
+  border: 1px solid #252b38;
+  border-left: 2px solid #252b38;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.education__card_type_featured {
+  border-left-color: #b9a06a;
+}
+
+.education__degree {
+  margin: 0;
+  color: #f4efe4;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.education__school {
+  margin: 0;
+  color: #b9a06a;
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.education__details {
+  margin: 0;
+  color: #9d9a96;
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+}
