@@ -67,3 +67,26 @@
   border: 1px solid #b9a06a;
   color: #d7d0bd;
 }
+
+/* ── Tablet ─────────────────────────────── */
+@media (max-width: 768px) {
+  .stack__inner {
+    padding: 10px 14px;
+  }
+
+  .stack__title {
+    font-size: 11px;
+    padding-right: 12px;
+  }
+}
+
+/* ── Mobile ─────────────────────────────── */
+@media (max-width: 540px) {
+  .stack__title {
+    display: none;
+  }
+
+  .stack__content {
+    gap: 0;
+  }
+}

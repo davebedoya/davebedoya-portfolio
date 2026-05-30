@@ -1,6 +1,12 @@
-.page {
+html,
+body {
   background: #0f1218;
+}
+
+.page {
   min-height: 100vh;
   padding: 24px;
   color: #e8e4df;
+  max-width: 1328px;
+  margin: 0 auto;
 }

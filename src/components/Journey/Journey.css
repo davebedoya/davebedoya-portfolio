@@ -163,3 +163,48 @@
   background-color: #1a2d20;
   color: #6ab87a;
 }
+
+/* ── Tablet ─────────────────────────────── */
+@media (max-width: 768px) {
+  .journey__supporting {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .journey__role {
+    font-size: 18px;
+  }
+
+  .journey__item_type_featured {
+    padding: 20px;
+  }
+}
+
+/* ── Mobile ─────────────────────────────── */
+@media (max-width: 540px) {
+  .journey__supporting {
+    grid-template-columns: 1fr;
+  }
+
+  .journey__item-header {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .journey__item-right {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .journey__role {
+    font-size: 17px;
+  }
+
+  .journey__item_type_featured {
+    padding: 18px 16px;
+  }
+
+  .journey__item_type_supporting {
+    padding: 14px 16px;
+  }
+}

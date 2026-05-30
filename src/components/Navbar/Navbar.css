@@ -76,3 +76,34 @@
   background-color: #b9a06a;
   color: #0f1218;
 }
+
+/* ── Tablet ─────────────────────────────── */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto;
+    padding: 14px 16px;
+  }
+
+  .navbar__links {
+    gap: 12px;
+  }
+
+  .navbar__identity_name {
+    font-size: 20px;
+  }
+
+  .navbar__identity_profession {
+    font-size: 13px;
+  }
+}
+
+/* ── Mobile ─────────────────────────────── */
+@media (max-width: 540px) {
+  .navbar__link:not(.navbar__link_cta) {
+    display: none;
+  }
+
+  .navbar__links {
+    gap: 0;
+  }
+}

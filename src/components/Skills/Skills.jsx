@@ -56,7 +56,6 @@ function Skills() {
                   </li>
                 ))}
               </ul>
-              <p className="skills__note">{col.note}</p>
             </div>
           ))}
         </div>
