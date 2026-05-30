@@ -10,14 +10,14 @@ function Education() {
             <h3 className="education__degree">B.S. Business Economics</h3>
             <p className="education__school">SUNY Oneonta · 2017 – 2021</p>
             <p className="education__details">
-              Corporate Finance · Stats · Mgmt Info Systems
+              Corporate Finance · Statistics · Calculus
             </p>
           </div>
           <div className="education__card education__card_type_featured">
             <h3 className="education__degree">Software Engineering Program</h3>
             <p className="education__school">TripleTen · May 2026</p>
             <p className="education__details">
-              MERN · REST APIs · Deployment · Git
+              MERN · REST APIs · Authentication · Deployment
             </p>
           </div>
         </div>

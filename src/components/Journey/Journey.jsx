@@ -1,10 +1,10 @@
 import "./Journey.css";
 
-const experiences = [
+const jobs = [
   {
     period: "2024 – 2026",
     role: "Full-Stack Software Engineering Student",
-    company: "TripleTen Software Engineering Program",
+    company: "TripleTen Software Engineering Program · Remote",
     description:
       "Completed a full-stack program focused on JavaScript, React, Node.js, Express, MongoDB, REST APIs, authentication, testing, and deployment. Built and deployed multiple full-stack applications while developing problem-solving and software development skills.",
     tag: "Graduate",
@@ -23,100 +23,113 @@ const experiences = [
   },
   {
     period: "2025 – Present",
-    role: "Kids Jiu-Jitsu Instructor",
-    company: "Smash Flow BJJ",
+    role: "Youth Jiu-Jitsu Instructor",
+    company: "Smash Flow BJJ · West Islip, NY",
     description:
       "Assist in coaching three youth Brazilian Jiu-Jitsu programs ranging from ages 4–15. Help students develop technical skills, discipline, confidence, and sportsmanship while maintaining a structured and engaging learning environment.",
-    tag: "Current",
+    tag: "Coach",
     tagType: "green",
-    emphasis: "featured",
+    emphasis: "supporting",
   },
   {
     period: "Aug 2025 – Present",
     role: "Front Desk / Operations Associate",
-    company: "Redefine Meals",
+    company: "Redefine Meals · Islip, NY",
     description:
       "Manage front-desk operations for a high-volume meal preparation company. Handle customer interactions, process transactions, and support daily business operations.",
-    tag: "Current",
+    tag: "Operations",
     tagType: "blue",
     emphasis: "supporting",
   },
   {
     period: "Seasonal · Multiple Summers",
     role: "Account Manager",
-    company: "Growing Greener Landscaping · Southampton / The Hamptons",
+    company: "Growing Greener Landscaping · Southampton, NY",
     description:
       "Assisted a family-owned landscaping business with property maintenance, customer service, scheduling, and field operations across high-end residential properties.",
-    tag: null,
-    tagType: null,
+    tag: "Family Business",
+    tagType: "gold",
     emphasis: "supporting",
   },
   {
     period: "Feb 2022 – Jul 2022",
-    role: "Small Business Funding Specialist",
+    role: "Business Funding Specialist",
     company: "Clara Capital · Syosset, NY",
     description:
       "Worked with small business owners to evaluate financing options and support funding applications. Communicated directly with clients, reviewed business information, and helped facilitate funding solutions in a fast-paced sales environment.",
-    tag: null,
-    tagType: null,
-    emphasis: "supporting",
+    tag: "Business Finance",
+    tagType: "blue",
+    emphasis: "featured",
   },
 ];
 
 function Journey() {
-  const featured = experiences.filter((e) => e.emphasis === "featured");
-  const supporting = experiences.filter((e) => e.emphasis === "supporting");
+  const featured = jobs.filter((job) => job.emphasis === "featured");
+  const supporting = jobs.filter((job) => job.emphasis === "supporting");
 
   return (
     <section className="journey" id="experience">
       <div className="journey__inner">
-        <p className="journey__section-label">Professional Experience</p>
+        <p className="journey__section-label">Professional Journey</p>
         <p className="journey__intro">
-          A business, operations, and leadership background that now supports my transition into software engineering.
+          A business, operations, and leadership background that now supports my
+          transition into software engineering.
         </p>
 
         <div className="journey__featured">
-          {featured.map((exp, i) => (
-            <div className="journey__item journey__item_type_featured" key={i}>
+          {featured.map((job, index) => (
+            <div
+              className="journey__item journey__item_type_featured"
+              key={index}
+            >
               <div className="journey__item-header">
                 <div className="journey__item-meta">
-                  <h3 className="journey__role">{exp.role}</h3>
-                  <p className="journey__company">{exp.company}</p>
+                  <h3 className="journey__role">{job.role}</h3>
+                  <p className="journey__company">{job.company}</p>
                 </div>
                 <div className="journey__item-right">
-                  {exp.tag && (
-                    <span className={`journey__tag journey__tag_type_${exp.tagType}`}>
-                      {exp.tag}
+                  {job.tag && (
+                    <span
+                      className={`journey__tag journey__tag_type_${job.tagType}`}
+                    >
+                      {job.tag}
                     </span>
                   )}
-                  <span className="journey__period">{exp.period}</span>
+                  <span className="journey__period">{job.period}</span>
                 </div>
               </div>
-              <p className="journey__description">{exp.description}</p>
+              <p className="journey__description">{job.description}</p>
             </div>
           ))}
         </div>
 
         <p className="journey__supporting-label">Additional Experience</p>
         <div className="journey__supporting">
-          {supporting.map((exp, i) => (
-            <div className="journey__item journey__item_type_supporting" key={i}>
+          {supporting.map((job, index) => (
+            <div
+              className="journey__item journey__item_type_supporting"
+              key={index}
+            >
               <div className="journey__item-header">
                 <div className="journey__item-meta">
-                  <h3 className="journey__role journey__role_size_small">{exp.role}</h3>
-                  <p className="journey__company">{exp.company}</p>
+                  <h3 className="journey__role journey__role_size_small">
+                    {job.role}
+                  </h3>
+                  <p className="journey__company">{job.company}</p>
                 </div>
                 <div className="journey__item-right">
-                  {exp.tag && (
-                    <span className={`journey__tag journey__tag_type_${exp.tagType}`}>
-                      {exp.tag}
+                  {job.tag && (
+                    <span
+                      className={`journey__tag journey__tag_type_${job.tagType}`}
+                    >
+                      {job.tag}
                     </span>
                   )}
-                  <span className="journey__period">{exp.period}</span>
+                  <span className="journey__period">{job.period}</span>
                 </div>
               </div>
               <p className="journey__description journey__description_size_small">
-                {exp.description}
+                {job.description}
               </p>
             </div>
           ))}

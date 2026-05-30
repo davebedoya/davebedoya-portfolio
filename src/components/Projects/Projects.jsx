@@ -96,7 +96,7 @@ function Projects() {
                   Live ↗
                 </a>
                 <a
-                  href="https://github.com/davebedoya/news-explorer-frontend"
+                  href="https://github.com/davebedoya/news-explorer-frontend/tree/stage-1-frontend-and-api"
                   className="projects__link"
                 >
                   GitHub ↗
