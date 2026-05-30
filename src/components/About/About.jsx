@@ -23,7 +23,7 @@ function About() {
                 Node.js, Express, and MongoDB. I enjoy solving technical
                 problems, creating intuitive user experiences, and continuously
                 improving through hands-on projects, technical interview
-                preparation, and lifelong learning.s
+                preparation, and lifelong learning.
               </p>
               <p className="about__bio-text">
                 Outside of software engineering, I coach youth Brazilian

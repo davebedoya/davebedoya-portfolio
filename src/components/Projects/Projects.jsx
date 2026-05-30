@@ -35,7 +35,7 @@ function Projects() {
               Weather-based clothing recommender
             </p>
             <p className="projects__card-stack">
-              React · Node · MongoDB · GCloud · Nginx · PM2
+              React · Node · MongoDB · Google Cloud · Nginx · PM2
             </p>
             <p className="projects__card-description">
               Full auth · REST API · live weather · production server
@@ -112,7 +112,7 @@ function Projects() {
               </span> */}
               <img
                 src={holidayNavigatorsScreenshot}
-                alt="News Explorer Live Screenshot"
+                alt="Holiday Navigators Live Screenshot"
                 className="projects__card-image"
               />
               <span className="projects__card-award">Code Jam Winner</span>
@@ -123,7 +123,7 @@ function Projects() {
                 Holiday travel planning platform
               </p>
               <p className="projects__card-stack">
-                HTML · CSS · Figma · Git collab
+                HTML · CSS · JavaScript · Team Collaboration
               </p>
               <p className="projects__card-description">Team · 1st Place</p>
               <div className="projects__card-links">
