@@ -33,7 +33,9 @@ function Hero() {
             </a>
           </div>
 
-          <p className="hero__status">Open to work · NYC / Remote</p>
+          <p className="hero__status">
+            Open to work · NYC Area · Hybrid · Remote
+          </p>
         </div>
         <img src={headshot} className="hero__image"></img>
       </div>

@@ -15,7 +15,12 @@ const columns = [
   {
     label: "Backend",
     type: "standard",
-    items: ["Node.js · Express", "MongoDB · REST APIs", "JWT · Auth flows", "Debugging"],
+    items: [
+      "Node.js · Express",
+      "MongoDB · REST APIs",
+      "JWT · Auth flows",
+      "Debugging",
+    ],
     note: "Comfortable",
   },
   {
@@ -29,9 +34,9 @@ const columns = [
     type: "green",
     items: [
       "Salesforce CRM",
-      "Finance Operations",
+      "Financial Analysis",
       "Bilingual EN / ES",
-      "Separates you from most bootcamp grads",
+      "Client Communication",
     ],
     note: "Rare for devs",
   },

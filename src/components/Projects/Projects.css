@@ -41,6 +41,15 @@
   border-right: 1px solid #252b38;
 }
 
+.projects__card-image {
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+}
 .projects__card_type_featured .projects__card-media {
   min-height: 280px;
 }
@@ -53,11 +62,11 @@
   border-left: 2px solid #b9a06a;
 }
 
-.projects__card-placeholder {
+/* .projects__card-placeholder {
   color: #4a5068;
   font-family: "DM Sans", sans-serif;
   font-size: 13px;
-}
+} */
 
 .projects__card-award {
   position: absolute;

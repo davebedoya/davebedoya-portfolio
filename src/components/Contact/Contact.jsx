@@ -7,11 +7,11 @@ function Contact() {
         <div className="contact__card">
           <h2 className="contact__headline">Let&apos;s build something.</h2>
           <p className="contact__subtext">
-            Open to junior full-stack and front-end roles · Manhattan / NYC / Remote
+            Open to junior full-stack · NYC area · Hybrid · Remote
           </p>
           <div className="contact__actions">
             <a
-              href="mailto:david@example.com"
+              href="mailto:davidbedoya1000@gmail.com"
               className="contact__button contact__button_type_primary"
             >
               Email David
