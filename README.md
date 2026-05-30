@@ -16,6 +16,9 @@ I'm a full-stack software engineer with a background in finance, operations, and
 - JavaScript
 - HTML5
 - CSS3
+- Node.js
+- Express.js
+- MongoDB
 - Vite
 - Git
 - GitHub Pages
