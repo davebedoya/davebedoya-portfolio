@@ -25,7 +25,8 @@ function Hero() {
             </a>
             <a
               className="hero__button hero__button_type_secondary"
-              href="/resume.pdf"
+              href="https://davebedoya.github.io/davebedoya-portfolio/resume.pdf"
+              // href={`${import.meta.env.BASE_URL}resume.pdf`}
               target="_blank"
               rel="noreferrer"
             >
