@@ -2,6 +2,16 @@ import "./Journey.css";
 
 const jobs = [
   {
+    period: "Aug 2026 – Sep 2026",
+    role: "Software Engineering Extern",
+    company: "Synthesis Workshop NPO · Remote",
+    description:
+      "Contributed frontend features to a collaborative STEM education platform using React, TypeScript, Tailwind CSS, GraphQL, and Apollo Client. Worked in an existing codebase, collaborated through GitHub pull requests and code reviews, and tracked development tasks using Jira.",
+    tag: "Software Engineering",
+    tagType: "gold",
+    emphasis: "featured",
+  },
+  {
     period: "2024 – 2026",
     role: "Full-Stack Software Engineering Student",
     company: "TripleTen Software Engineering Program · Remote",
@@ -72,8 +82,8 @@ function Journey() {
       <div className="journey__inner">
         <p className="journey__section-label">Professional Journey</p>
         <p className="journey__intro">
-          A business, operations, and leadership background that now supports my
-          transition into software engineering.
+          Software engineering experience supported by a background in finance,
+          operations, and client-facing business roles.
         </p>
 
         <div className="journey__featured">

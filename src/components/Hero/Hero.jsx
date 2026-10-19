@@ -6,7 +6,7 @@ function Hero() {
       <div className="hero__inner">
         <div className="hero__content">
           <p className="hero__eyebrow">
-            MERN Stack · TripleTen Graduate · 2026
+            SOFTWARE ENGINEERING · FULL-STACK DEVELOPMENT · NYC
           </p>
           <h1 className="hero__title">Full-Stack Developer</h1>
           <p className="hero__subtitle">

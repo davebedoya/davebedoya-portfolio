@@ -2,11 +2,49 @@ import "./Projects.css";
 import wtwrScreenshot from "../../assets/wtwr3.jpeg";
 import newsexplorerScreenshot from "../../assets/newsexplorer.jpeg";
 import holidayNavigatorsScreenshot from "../../assets/holidaynavigators.jpeg";
+import terrarouteScreenshot from "../../assets/terraroute-dashboard.png";
 
 function Projects() {
   return (
     <section className="projects" id="projects">
       <div className="projects__inner">
+        <p className="projects__section-label">Currently Building</p>
+        {/* TerraRoute — In Progress */}
+        <div className="projects__card projects__card_type_featured">
+          <div className="projects__card-media">
+            <img
+              src={terrarouteScreenshot}
+              alt="TerraRoute landscaping operations dashboard screenshot"
+              className="projects__card-image"
+            />
+          </div>
+
+          <div className="projects__card-body">
+            <div className="projects__card-badges">
+              <span className="projects__badge projects__badge_type_gold">
+                In Progress
+              </span>
+              <span className="projects__badge">Real-World Project</span>
+            </div>
+
+            <h3 className="projects__card-title">TerraRoute</h3>
+
+            <p className="projects__card-subtitle">
+              Landscaping Operations Management Platform
+            </p>
+
+            <p className="projects__card-stack">
+              React · TypeScript · React Router · Tailwind CSS
+            </p>
+
+            <p className="projects__card-description">
+              An operations management platform currently in development for
+              landscaping businesses. Designed to streamline property
+              management, crew scheduling, service requests, and field reporting
+              based on real-world business needs.
+            </p>
+          </div>
+        </div>
         <p className="projects__section-label">Featured Work</p>
 
         {/* Featured wide card */}

@@ -1,14 +1,13 @@
 import "./Skills.css";
-
 const columns = [
   {
     label: "Frontend",
     type: "standard",
     items: [
       "React · React Router",
-      "JavaScript · HTML5 · CSS3",
-      "Responsive Design",
-      "Vite · Figma",
+      "TypeScript · JavaScript",
+      "Tailwind CSS · HTML5 · CSS3",
+      "Responsive Design · Vite",
     ],
     note: "Comfortable",
   },
@@ -17,26 +16,31 @@ const columns = [
     type: "standard",
     items: [
       "Node.js · Express",
-      "MongoDB · REST APIs",
-      "JWT · Auth flows",
-      "Debugging",
+      "MongoDB · PostgreSQL",
+      "REST APIs · GraphQL",
+      "JWT · Authentication",
     ],
     note: "Comfortable",
   },
   {
     label: "Deployment",
     type: "gold",
-    items: ["Google Cloud · Nginx", "PM2 · GitHub Pages", "Git · GitHub"],
+    items: [
+      "Google Cloud · Nginx",
+      "PM2 · GitHub Pages",
+      "Docker · Git · GitHub",
+    ],
     note: "Differentiator",
   },
   {
     label: "Business",
     type: "green",
     items: [
-      "Salesforce CRM",
       "Financial Analysis",
-      "Bilingual EN / ES",
+      "Business Operations",
       "Client Communication",
+      "Bilingual EN / ES",
+      "Requirements Gathering",
     ],
     note: "Rare for devs",
   },

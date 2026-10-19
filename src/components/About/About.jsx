@@ -19,11 +19,12 @@ function About() {
                 across multiple industries.
               </p>
               <p className="about__bio-text">
-                Today, I build web applications using JavaScript, React,
-                Node.js, Express, and MongoDB. I enjoy solving technical
-                problems, creating intuitive user experiences, and continuously
-                improving through hands-on projects, technical interview
-                preparation, and lifelong learning.
+                Today, I develop web applications using React, TypeScript,
+                JavaScript, Node.js, and modern frontend and backend
+                technologies. My recent experience includes contributing to a
+                collaborative software engineering project and building
+                TerraRoute, an operations management platform designed around
+                real business needs.
               </p>
               <p className="about__bio-text">
                 Outside of software engineering, I coach youth Brazilian
